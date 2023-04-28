@@ -1,0 +1,19 @@
+<div style='width:640px;height:480px;max-width:100%'>
+    <div id='game'></div>
+</div>
+    
+<script type='text/javascript'>
+        EJS_player = '#game';
+        
+        // can also be fceummm or nestopia
+        EJS_core = 'nes';
+        
+        EJS_lightgun = false; // Lightgun
+        
+        // URL to Game rom
+        EJS_gameUrl = '';
+        
+        // path to the data directory
+        EJS_pathtodate = 'data/';
+</script>
+<script src='data/loader.js'></script>
